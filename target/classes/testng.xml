@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FaceebookLoginAutomation Test Suite">
+
+	<listeners>
+		<listener class-name="com.facebook.ExtentReport.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="facebookLogintest">
+		<classes>
+			<class name="com.facbook.testcases.LoginPageTest"></class>
+			<class name="com.facbook.testcases.HomePageTest"></class>
+			<class name="com.facbook.testcases.CreatePagesTest"></class>
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="4" name="TestSuite" time="116.642" errors="0" skipped="8">
+  <properties>
+    <property name="JOB_NAME" value="FacebookLoginTestJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\varru\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="491d0d2308b7fcd0"/>
+    <property name="POM_ARTIFACTID" value="facebookLogintest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="facebookLogintest"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\varru\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="varru"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FacebookLoginTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FacebookLoginTestJob/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="OneDrive" value="C:\Users\varru\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\varru\AppData\Local"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="varru"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\varru\OneDrive"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CA"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FacebookLoginTestJob/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\varru\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FacebookLoginTestJob/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-PKKMISS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\varru"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="DESKTOP-PKKMISS"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="FaceebookLoginAutomation"/>
+    <property name="user.home" value="C:\Users\varru"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FacebookLoginTestJob-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="491d0d2308b7fcd0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\varru"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\varru\AppData\Local\Microsoft\WindowsApps;;C:\Users\varru\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\varru\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\varru\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\varru\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\varru\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\varru\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63793"/>
+    <property name="Path" value="C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\Users\varru\AppData\Local\Microsoft\WindowsApps;;C:\Users\varru\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 126 Stepping 5, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="M2_HOME" value="C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\varru\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\varru\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FacebookLoginTestJob/3/"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="user.dir" value="C:\Users\varru\eclipse-workspace\facebookLogintest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FacebookLoginTestJob/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-PKKMISS"/>
+    <property name="USERDOMAIN" value="DESKTOP-PKKMISS"/>
+    <property name="MAVEN_HOME" value="C:\Users\varru\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="PROCESSOR_REVISION" value="7e05"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="=C:" value="C:\Users\varru\OneDrive\Documents\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\varru\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\varru\.jenkins\workspace\FacebookLoginTestJob@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\varru\.jenkins\workspace\FacebookLoginTestJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\varru\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.facbook.testcases.CreatePagesTest" name="varifyPageTitleTest" time="1.634"/>
+  <testcase classname="com.facbook.testcases.CreatePagesTest" name="verifyCreateNewPageButtonTest" time="25.513">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e0bbe7ddb4e37f4e74178835abb16f9
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e0bbe7ddb4e37f4e74178835abb16f9
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.facebook.pages.HomePage.clickOnPagesLink(HomePage.java:40)
+	at com.facbook.testcases.CreatePagesTest.verifyCreateNewPageButtonTest(CreatePagesTest.java:43)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.facebook.com/&apos;
+Navigated to:&apos;https://www.facebook.com/&apos;
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: pass
+Found Element By : By.name: pass
+Trying to find Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (0e0bbe7ddb4e37f4e74178835abb16f9)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (0e0bbe7ddb4e37f4e74178835abb16f9)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Trying to find Element By : By.xpath: //span//div[contains(text(),&apos;Pages&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0e0bbe7ddb4e37f4e74178835abb16f9
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 1961
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 04, 2020 11:42:43 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.facbook.testcases.CreatePagesTest" name="verifycreateNewPageTitleTest" time="25.554">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1098aec521c251e6bce7c848265c59ce
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1098aec521c251e6bce7c848265c59ce
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.facebook.pages.HomePage.clickOnPagesLink(HomePage.java:40)
+	at com.facbook.testcases.CreatePagesTest.verifycreateNewPageTitleTest(CreatePagesTest.java:52)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.facebook.com/&apos;
+Navigated to:&apos;https://www.facebook.com/&apos;
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: pass
+Found Element By : By.name: pass
+Trying to find Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Found Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (1098aec521c251e6bce7c848265c59ce)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (1098aec521c251e6bce7c848265c59ce)] -&gt; xpath: //input[@type=&apos;submit&apos;]]
+Trying to find Element By : By.xpath: //span//div[contains(text(),&apos;Pages&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span//div[contains(text(),&apos;Pages&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1098aec521c251e6bce7c848265c59ce
+*** Element info: {Using=xpath, value=//span//div[contains(text(),&apos;Pages&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9611
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 04, 2020 11:43:15 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="verifyHomePageTitleTest" time="5.333"/>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="setUp" time="32.655">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d75ee802899f3c6cfce58ab74358d527
+*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d75ee802899f3c6cfce58ab74358d527
+*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.facebook.pages.LoginPage.login(LoginPage.java:48)
+	at com.facbook.testcases.HomePageTest.setUp(HomePageTest.java:37)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.facebook.com/&apos;
+Navigated to:&apos;https://www.facebook.com/&apos;
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: pass
+Found Element By : By.name: pass
+Trying to find Element By : By.xpath: //input[@type=&apos;submit&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;submit&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d75ee802899f3c6cfce58ab74358d527
+*** Element info: {Using=xpath, value=//input[@type=&apos;submit&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 27096
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 04, 2020 11:44:01 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="verifyCorrectUsernameTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="verifyMarketplacelinktest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="setUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="verifyPagepagelinkTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.HomePageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.facbook.testcases.LoginPageTest" name="loginPageTitleTest" time="0.011"/>
+  <testcase classname="com.facbook.testcases.LoginPageTest" name="faceBookLogoTest" time="20.544">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: decdcaab1b35a47aef6d8614a8109163
+*** Element info: {Using=xpath, value=//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: decdcaab1b35a47aef6d8614a8109163
+*** Element info: {Using=xpath, value=//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at com.facebook.pages.LoginPage.validateFacebookImage(LoginPage.java:41)
+	at com.facbook.testcases.LoginPageTest.faceBookLogoTest(LoginPageTest.java:40)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.facebook.com/&apos;
+Navigated to:&apos;https://www.facebook.com/&apos;
+Trying to find Element By : By.xpath: //div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-PKKMISS&apos;, ip: &apos;192.168.0.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\varru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: decdcaab1b35a47aef6d8614a8109163
+*** Element info: {Using=xpath, value=//div[@id=&quot;blueBarDOMInspector&quot;]//div[@class=&apos;lfloat _ohe&apos;]}
+</system-out>
+    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 6392
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 04, 2020 11:44:34 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.facbook.testcases.LoginPageTest" name="loginTest" time="5.396"/>
+</testsuite>
