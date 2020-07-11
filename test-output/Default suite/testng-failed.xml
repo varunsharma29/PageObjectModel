@@ -6,6 +6,8 @@
       <class name="com.facbook.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="faceBookLogoTest"/>
           <include name="setUp"/>
           <include name="loginTest"/>
         </methods>

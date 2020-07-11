@@ -6,6 +6,13 @@
   </listeners>
   <test thread-count="5" name="facebookLogintest(failed)">
     <classes>
+      <class name="com.facbook.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="faceBookLogoTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.facbook.testcases.LoginPageTest -->
       <class name="com.facbook.testcases.CreatePagesTest">
         <methods>
           <include name="varifyPageTitleTest"/>
@@ -13,13 +20,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.facbook.testcases.CreatePagesTest -->
-      <class name="com.facbook.testcases.HomePageTest">
-        <methods>
-          <include name="verifyPagepagelinkTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.facbook.testcases.HomePageTest -->
     </classes>
   </test> <!-- facebookLogintest(failed) -->
 </suite> <!-- Failed suite [FaceebookLoginAutomation Test Suite] -->

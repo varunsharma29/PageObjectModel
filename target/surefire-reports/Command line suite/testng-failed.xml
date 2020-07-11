@@ -5,28 +5,18 @@
     <classes>
       <class name="com.facbook.testcases.HomePageTest">
         <methods>
-          <include name="verifyPagepagelinkTest"/>
           <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
           <include name="tearDown"/>
-          <include name="verifyMarketplacelinktest"/>
-          <include name="verifyCorrectUsernameTest"/>
         </methods>
       </class> <!-- com.facbook.testcases.HomePageTest -->
       <class name="com.facbook.testcases.CreatePagesTest">
         <methods>
+          <include name="varifyPageTitleTest"/>
           <include name="setup"/>
-          <include name="verifycreateNewPageTitleTest"/>
           <include name="tearDown"/>
-          <include name="verifyCreateNewPageButtonTest"/>
         </methods>
       </class> <!-- com.facbook.testcases.CreatePagesTest -->
-      <class name="com.facbook.testcases.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="faceBookLogoTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.facbook.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

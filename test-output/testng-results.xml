@@ -1,277 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="8" failed="1" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-04T20:38:21 EDT" name="FaceebookLoginAutomation Test Suite" finished-at="2020-07-04T20:40:53 EDT" duration-ms="151830">
+  <suite started-at="2020-07-10T23:07:38 EDT" name="Default suite" finished-at="2020-07-10T23:08:06 EDT" duration-ms="27585">
     <groups>
     </groups>
-    <test started-at="2020-07-04T20:38:21 EDT" name="facebookLogintest" finished-at="2020-07-04T20:40:53 EDT" duration-ms="151830">
+    <test started-at="2020-07-10T23:07:38 EDT" name="Default test" finished-at="2020-07-10T23:08:06 EDT" duration-ms="27585">
       <class name="com.facbook.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:21 EDT" name="setUp" finished-at="2020-07-04T20:38:29 EDT" duration-ms="7867" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:38 EDT" name="setUp" finished-at="2020-07-10T23:07:46 EDT" duration-ms="7243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:29 EDT" name="loginPageTitleTest" finished-at="2020-07-04T20:38:29 EDT" duration-ms="31" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:46 EDT" name="loginPageTitleTest" finished-at="2020-07-10T23:07:46 EDT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:29 EDT" name="tearDown" finished-at="2020-07-04T20:38:30 EDT" duration-ms="700" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:46 EDT" name="tearDown" finished-at="2020-07-10T23:07:46 EDT" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:30 EDT" name="setUp" finished-at="2020-07-04T20:38:37 EDT" duration-ms="6733" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:46 EDT" name="setUp" finished-at="2020-07-10T23:07:53 EDT" duration-ms="6507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="faceBookLogoTest()[pri:2, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:37 EDT" name="faceBookLogoTest" finished-at="2020-07-04T20:38:37 EDT" duration-ms="175" status="PASS">
+        <test-method signature="faceBookLogoTest()[pri:2, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:53 EDT" name="faceBookLogoTest" finished-at="2020-07-10T23:07:53 EDT" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faceBookLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:37 EDT" name="tearDown" finished-at="2020-07-04T20:38:37 EDT" duration-ms="644" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:53 EDT" name="tearDown" finished-at="2020-07-10T23:07:54 EDT" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:37 EDT" name="setUp" finished-at="2020-07-04T20:38:46 EDT" duration-ms="8211" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:07:54 EDT" name="setUp" finished-at="2020-07-10T23:08:00 EDT" duration-ms="6492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:3, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:46 EDT" name="loginTest" finished-at="2020-07-04T20:38:52 EDT" duration-ms="6262" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:08:00 EDT" name="loginTest" finished-at="2020-07-10T23:08:05 EDT" duration-ms="5390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@20d28811]" started-at="2020-07-04T20:38:52 EDT" name="tearDown" finished-at="2020-07-04T20:38:53 EDT" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.LoginPageTest@1e802ef9]" started-at="2020-07-10T23:08:05 EDT" name="tearDown" finished-at="2020-07-10T23:08:06 EDT" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.facbook.testcases.LoginPageTest -->
-      <class name="com.facbook.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:38:53 EDT" name="setUp" finished-at="2020-07-04T20:39:02 EDT" duration-ms="9461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:02 EDT" name="verifyHomePageTitleTest" finished-at="2020-07-04T20:39:06 EDT" duration-ms="4192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:06 EDT" name="tearDown" finished-at="2020-07-04T20:39:07 EDT" duration-ms="725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:07 EDT" name="setUp" finished-at="2020-07-04T20:39:15 EDT" duration-ms="8324" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyCorrectUsernameTest()[pri:2, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:15 EDT" name="verifyCorrectUsernameTest" finished-at="2020-07-04T20:39:20 EDT" duration-ms="4286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCorrectUsernameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:20 EDT" name="tearDown" finished-at="2020-07-04T20:39:20 EDT" duration-ms="738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:20 EDT" name="setUp" finished-at="2020-07-04T20:39:30 EDT" duration-ms="9665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyMarketplacelinktest()[pri:3, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:30 EDT" name="verifyMarketplacelinktest" finished-at="2020-07-04T20:39:39 EDT" duration-ms="8858" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMarketplacelinktest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:39 EDT" name="tearDown" finished-at="2020-07-04T20:39:40 EDT" duration-ms="719" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:39:40 EDT" name="setUp" finished-at="2020-07-04T20:40:01 EDT" duration-ms="20896" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:120)
-at org.openqa.selenium.support.events.EventFiringWebDriver.access$300(EventFiringWebDriver.java:69)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:397)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:389)
-at org.openqa.selenium.support.events.EventFiringWebDriver.createWebElement(EventFiringWebDriver.java:327)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:196)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at com.facebook.pages.LoginPage.login(LoginPage.java:48)
-at com.facbook.testcases.HomePageTest.setUp(HomePageTest.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyPagepagelinkTest()[pri:4, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:40:01 EDT" name="verifyPagepagelinkTest" finished-at="2020-07-04T20:40:01 EDT" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:120)
-at org.openqa.selenium.support.events.EventFiringWebDriver.access$300(EventFiringWebDriver.java:69)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:397)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:389)
-at org.openqa.selenium.support.events.EventFiringWebDriver.createWebElement(EventFiringWebDriver.java:327)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:196)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.click(Unknown Source)
-at com.facebook.pages.LoginPage.login(LoginPage.java:48)
-at com.facbook.testcases.HomePageTest.setUp(HomePageTest.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPagepagelinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.HomePageTest@3967e60c]" started-at="2020-07-04T20:40:01 EDT" name="tearDown" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1593909601029" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.facbook.testcases.HomePageTest -->
-      <class name="com.facbook.testcases.CreatePagesTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:01 EDT" name="setup" finished-at="2020-07-04T20:40:09 EDT" duration-ms="8067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="varifyPageTitleTest()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:09 EDT" name="varifyPageTitleTest" finished-at="2020-07-04T20:40:12 EDT" duration-ms="2910" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[page title did not match expected [Facebook - Log In or Sign Up] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: page title did not match expected [Facebook - Log In or Sign Up] but found []
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:575)
-at com.facbook.testcases.CreatePagesTest.varifyPageTitleTest(CreatePagesTest.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- varifyPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:12 EDT" name="tearDown" finished-at="2020-07-04T20:40:12 EDT" duration-ms="748" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:12 EDT" name="setup" finished-at="2020-07-04T20:40:20 EDT" duration-ms="7875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCreateNewPageButtonTest()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:20 EDT" name="verifyCreateNewPageButtonTest" finished-at="2020-07-04T20:40:31 EDT" duration-ms="11093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCreateNewPageButtonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:31 EDT" name="tearDown" finished-at="2020-07-04T20:40:32 EDT" duration-ms="883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:32 EDT" name="setup" finished-at="2020-07-04T20:40:41 EDT" duration-ms="8778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifycreateNewPageTitleTest()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:41 EDT" name="verifycreateNewPageTitleTest" finished-at="2020-07-04T20:40:52 EDT" duration-ms="11360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifycreateNewPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facbook.testcases.CreatePagesTest@60d8c9b7]" started-at="2020-07-04T20:40:52 EDT" name="tearDown" finished-at="2020-07-04T20:40:53 EDT" duration-ms="819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.facbook.testcases.CreatePagesTest -->
-    </test> <!-- facebookLogintest -->
-  </suite> <!-- FaceebookLoginAutomation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
